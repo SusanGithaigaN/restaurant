@@ -10,6 +10,7 @@ import {
 } from 'mdb-react-ui-kit';
 import './Home.css'
 import About from '../About/About';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   const [showBasic, setShowBasic] = useState(false);
@@ -25,8 +26,10 @@ export default function Home() {
               <div className='text-white'>
                 <h1 className='mb-3' id='title'>Mexicana <i class="fa fa-cutlery" aria-hidden="true"></i></h1>
                 <h4 className='mb-3' id='text'>Feels like home, tastes like paradise</h4>
-                <MDBBtn tag="a" id='buto' href='/dish'>
+                <MDBBtn tag="a" id='buto'>
+                <Link to='/dish' id='textxx'>
                   View Dishes
+                  </Link>
                 </MDBBtn>
               </div>
             </div>

@@ -21,11 +21,11 @@
 #buto{
     background-color: transparent;
     box-shadow: none;
-    border-radius: 2px solid white;
+    border: 2px solid white;
     color: white;
 }
 
-#txt{
+#txt, #textxx{
     color: white;
 }
 /* responsiveness */
