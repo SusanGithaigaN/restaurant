@@ -16,7 +16,7 @@
       const options = {
         method: 'GET',
         headers: {
-          'X-RapidAPI-Key': '4a1fb52c8cmshf903322185999c4p16ed13jsn69168c2f11c1',
+          'X-RapidAPI-Key': 'fb91113485msh81f594f71ee52b7p16cf11jsn4407847589fd',
           'X-RapidAPI-Host': 'the-mexican-food-db.p.rapidapi.com'
         }
       };
