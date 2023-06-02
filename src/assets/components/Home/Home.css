@@ -1,0 +1,45 @@
+#home{
+    background-color: black;
+    
+}
+#title{
+    font-size: 5em;
+    color: #eee4d9;
+    /* color: white; */
+    /* padding-top: 4em; */
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+}
+#text{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#buto{
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 2px solid white;
+    color: white;
+}
+
+#txt{
+    color: white;
+}
+/* responsiveness */
+@media (max-width: 768px) {
+    #afcado{
+        padding-left: 0;
+    }
+    #title{
+        font-size: 42px;
+        /* color: #994d00; */
+        /* font-weight: bold; */
+        letter-spacing: 4px;
+    }
+    #hero{
+        /* height: 50vh; */
+    }
+}

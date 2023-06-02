@@ -1,0 +1,8 @@
+#dish-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 5px 2px #994d00;
+    background-color: #e29b59;
+}
+#dish-card{
+    margin-bottom: 3em;
+}

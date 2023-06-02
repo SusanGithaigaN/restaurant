@@ -1,0 +1,23 @@
+#cards{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#about, #abt-card{
+    background-color: black;
+}
+#italia{
+    font-style: italic;
+    color: white;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+#vo{
+    font-style: italic;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+#text{
+    color: white;
+    font-size: 19px;
+}
